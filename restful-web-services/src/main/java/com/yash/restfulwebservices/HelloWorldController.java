@@ -33,7 +33,7 @@ public class HelloWorldController {
    @GetMapping("/helloworldbean")
    public HelloWorldBean helloWorldBean()
    {
-       return new HelloWorldBean("hello World bean helloo");
+       return new HelloWorldBean("hello World bean helloo lkkll");
    }
 
     @GetMapping(path="/helloworldbean/path-vairiable/{name}")
