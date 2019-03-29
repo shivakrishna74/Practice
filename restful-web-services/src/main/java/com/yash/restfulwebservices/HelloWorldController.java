@@ -26,7 +26,7 @@ public class HelloWorldController {
    @GetMapping("/helloworld")
     public String returnHelloWorld()
    {
-       return "Hello world changed now";
+       return "Hello world changed dev";
    }
 
 
